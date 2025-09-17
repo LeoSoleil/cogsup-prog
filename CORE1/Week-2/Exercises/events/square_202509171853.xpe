@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 17 2025 18:53:57
+#sha1: f113f8
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+3477,stderr,received,'Traceback (most recent call last):'
+3477,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/square.py", line 14, in <module>'
+3477,stderr,received,'    square = stimuli.Square(radius=50)'
+3477,stderr,received,'             ^^^^^^^^^^^^^^'
+3477,stderr,received,"AttributeError: module 'expyriment.stimuli' has no attribute 'Square'"

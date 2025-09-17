@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 17 2025 19:23:12
+#sha1: 94a214
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+1146,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+1146,design,logged,
+1146,Experiment,started
+1147,Stimulus,presented,0
+1152,Stimulus,presented,1
+1197,stderr,received,'Traceback (most recent call last):'
+1197,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/launching.py", line 23, in <module>'
+1197,stderr,received,'    square1.move(0,0)'
+1197,stderr,received,'TypeError: Visual.move() takes 2 positional arguments but 3 were given'

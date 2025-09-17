@@ -1,0 +1,29 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 17 2025 18:42:26
+#sha1: d0e301
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+507,stderr,received,'Traceback (most recent call last):'
+507,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/circle.py", line 8, in <module>'
+507,stderr,received,'    control.initialize(exp)'
+507,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 519, in initialise'
+507,stderr,received,'    canvas.preload(True)'
+508,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1058, in preload'
+508,stderr,received,'    self._ogl_screen = _LaminaPanelSurface('
+508,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^'
+508,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 80, in __init__'
+508,stderr,received,'    self.refresh_position()'
+508,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 110, in refresh_position'
+508,stderr,received,'    bottomleft = oglu.gluUnProject(screensize[0] // 2 - \\'
+508,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+509,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/OpenGL/latebind.py", line 63, in __call__'
+509,stderr,received,'    return self.wrapperFunction( self.baseFunction, *args, **named )'
+509,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+509,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/OpenGL/GLU/projection.py", line 55, in gluUnProject'
+509,stderr,received,'    result = baseFunction( '
+509,stderr,received,'             ^^^^^^^^^^^^^'
+509,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/OpenGL/platform/baseplatform.py", line 495, in __call__'
+509,stderr,received,'    raise error.NullFunctionError('
+509,stderr,received,'OpenGL.error.NullFunctionError: Attempt to call an undefined function gluUnProject, check for bool(gluUnProject) before calling'

@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 17 2025 19:14:42
+#sha1: 144c23
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+782,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+782,design,logged,
+782,Experiment,started
+827,stderr,received,'Traceback (most recent call last):'
+827,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/two_squares.py", line 21, in <module>'
+827,stderr,received,'    square.present(clear=True, update=False)'
+827,stderr,received,'    ^^^^^^'
+827,stderr,received,"NameError: name 'square' is not defined. Did you mean: 'square1'?"
