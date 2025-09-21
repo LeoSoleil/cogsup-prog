@@ -19,7 +19,9 @@ lst = [1, 4, -6, 7, 2, 3, 9, 11, 6] # In all exercises in this script, you will 
 
 print("Exercise 3.1")
 
-pass
+i=0
+for a in lst: i+=a
+print(i)
 
 print("---")
 
@@ -33,7 +35,9 @@ Print the product of the elements in the list.
 
 print("Exercise 3.2")
 
-pass
+i=1
+for a in lst: i*=a
+print(i)
 
 print("---")
 
@@ -47,7 +51,9 @@ Print the sum of the squares of the list.
 
 print("Exercise 3.3")
 
-pass
+i=0
+for a in lst: i+=(a*a)
+print(i)
 
 print("---")
 
@@ -61,7 +67,7 @@ Print the largest element of the list.
 
 print("Exercise 3.4")
 
-pass
+print(max(lst))
 
 print("---")
 
@@ -75,6 +81,6 @@ Print the largest element of the list.
 
 print("Exercise 3.5")
 
-pass
+print(max(lst))
 
 print("---")
