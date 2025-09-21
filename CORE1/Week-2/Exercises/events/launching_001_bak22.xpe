@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Thu Sep 18 2025 11:08:21
+#sha1: 955193
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+4638,stderr,received,'Traceback (most recent call last):'
+4638,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/launching.py", line 17, in <module>'
+4638,stderr,received,'    control.start(subject_id=1)'
+4638,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 209, in start'
+4639,stderr,received,'    experiment.keyboard.wait()'
+4639,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+4640,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+4640,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4640,stderr,received,'KeyboardInterrupt'

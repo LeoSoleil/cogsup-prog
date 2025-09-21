@@ -1,11 +1,11 @@
 #Expyriment 1.0.0 (Python 3.12.3), .xpd-file, coding: UTF-8
-#date: Sun Sep 21 2025 11:41:33
+#date: Sun Sep 21 2025 13:22:19
 #--EXPERIMENT INFO
-#e mainfile: launching.py
-#e sha1: 82a722
+#e mainfile: labeled_shapes_function.py
+#e sha1: 9372e8
 #e modules: 
-#e Experiment: Launch
+#e Experiment: Labeled (function version)
 #e no between subject factors
 #--SUBJECT INFO
-#s id: 1
+#s id: 4
 subject_id,

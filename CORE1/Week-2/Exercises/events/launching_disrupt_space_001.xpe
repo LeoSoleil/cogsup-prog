@@ -1,0 +1,141 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Thu Sep 18 2025 11:46:04
+#sha1: 741cad
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+309,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+309,design,logged,
+309,Experiment,started
+309,Stimulus,presented,0
+311,Stimulus,presented,1
+332,Stimulus,presented,0
+333,Stimulus,presented,1
+354,Stimulus,presented,0
+356,Stimulus,presented,1
+376,Stimulus,presented,0
+378,Stimulus,presented,1
+398,Stimulus,presented,0
+400,Stimulus,presented,1
+421,Stimulus,presented,0
+423,Stimulus,presented,1
+443,Stimulus,presented,0
+445,Stimulus,presented,1
+466,Stimulus,presented,0
+468,Stimulus,presented,1
+488,Stimulus,presented,0
+490,Stimulus,presented,1
+510,Stimulus,presented,0
+512,Stimulus,presented,1
+532,Stimulus,presented,0
+534,Stimulus,presented,1
+555,Stimulus,presented,0
+556,Stimulus,presented,1
+577,Stimulus,presented,0
+578,Stimulus,presented,1
+599,Stimulus,presented,0
+600,Stimulus,presented,1
+621,Stimulus,presented,0
+622,Stimulus,presented,1
+643,Stimulus,presented,0
+645,Stimulus,presented,1
+666,Stimulus,presented,0
+667,Stimulus,presented,1
+688,Stimulus,presented,0
+690,Stimulus,presented,1
+710,Stimulus,presented,0
+712,Stimulus,presented,1
+732,Stimulus,presented,0
+734,Stimulus,presented,1
+755,Stimulus,presented,0
+757,Stimulus,presented,1
+777,Stimulus,presented,0
+779,Stimulus,presented,1
+799,Stimulus,presented,0
+801,Stimulus,presented,1
+821,Stimulus,presented,0
+822,Stimulus,presented,1
+843,Stimulus,presented,0
+844,Stimulus,presented,1
+865,Stimulus,presented,0
+867,Stimulus,presented,1
+887,Stimulus,presented,0
+889,Stimulus,presented,1
+910,Stimulus,presented,0
+911,Stimulus,presented,1
+932,Stimulus,presented,0
+934,Stimulus,presented,1
+954,Stimulus,presented,0
+956,Stimulus,presented,1
+976,Stimulus,presented,0
+978,Stimulus,presented,1
+999,Stimulus,presented,1
+1001,Stimulus,presented,0
+1021,Stimulus,presented,1
+1023,Stimulus,presented,0
+1043,Stimulus,presented,1
+1045,Stimulus,presented,0
+1065,Stimulus,presented,1
+1067,Stimulus,presented,0
+1087,Stimulus,presented,1
+1089,Stimulus,presented,0
+1109,Stimulus,presented,1
+1111,Stimulus,presented,0
+1131,Stimulus,presented,1
+1133,Stimulus,presented,0
+1153,Stimulus,presented,1
+1155,Stimulus,presented,0
+1176,Stimulus,presented,1
+1177,Stimulus,presented,0
+1197,Stimulus,presented,1
+1199,Stimulus,presented,0
+1219,Stimulus,presented,1
+1222,Stimulus,presented,0
+1242,Stimulus,presented,1
+1244,Stimulus,presented,0
+1265,Stimulus,presented,1
+1266,Stimulus,presented,0
+1287,Stimulus,presented,1
+1289,Stimulus,presented,0
+1309,Stimulus,presented,1
+1311,Stimulus,presented,0
+1331,Stimulus,presented,1
+1333,Stimulus,presented,0
+1353,Stimulus,presented,1
+1355,Stimulus,presented,0
+1375,Stimulus,presented,1
+1377,Stimulus,presented,0
+1398,Stimulus,presented,1
+1399,Stimulus,presented,0
+1420,Stimulus,presented,1
+1421,Stimulus,presented,0
+1442,Stimulus,presented,1
+1443,Stimulus,presented,0
+1464,Stimulus,presented,1
+1465,Stimulus,presented,0
+1485,Stimulus,presented,1
+1487,Stimulus,presented,0
+1508,Stimulus,presented,1
+1510,Stimulus,presented,0
+1530,Stimulus,presented,1
+1532,Stimulus,presented,0
+1552,Stimulus,presented,1
+1554,Stimulus,presented,0
+1574,Stimulus,presented,1
+1576,Stimulus,presented,0
+1596,Stimulus,presented,1
+1598,Stimulus,presented,0
+1618,Stimulus,presented,1
+1620,Stimulus,presented,0
+1640,Stimulus,presented,1
+1642,Stimulus,presented,0
+5847,stderr,received,'Traceback (most recent call last):'
+5847,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/launching_disrupt_space.py", line 37, in <module>'
+5847,stderr,received,'    exp.keyboard.wait()'
+5847,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+5848,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+5848,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5848,stderr,received,'KeyboardInterrupt'

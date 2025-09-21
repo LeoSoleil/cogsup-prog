@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Thu Sep 18 2025 11:06:25
+#sha1: 642c94
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+957,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+957,design,logged,
+957,Experiment,started
+958,Stimulus,presented,0
+960,Stimulus,presented,1
+991,stderr,received,'Traceback (most recent call last):'
+991,stderr,received,'  File "/home/leo/cogsup-prog/CORE1/Week-2/Exercises/launching.py", line 24, in <module>'
+991,stderr,received,'    for i in 3:'
+991,stderr,received,"TypeError: 'int' object is not iterable"
