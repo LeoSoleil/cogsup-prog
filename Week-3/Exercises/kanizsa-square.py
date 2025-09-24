@@ -30,18 +30,5 @@ c3.present(clear=False, update=False)
 c4.present(clear=False, update=False)
 s1.present(clear=False, update=True)
 
-
-
-
-
-
-
-
-
-
-
-# Leave it on-screen until a key is pressed
 exp.keyboard.wait()
-
-# End the current session and quit expyriment
 control.end()

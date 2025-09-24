@@ -6,6 +6,7 @@ control.set_develop_mode()
 exp = design.Experiment(name = "Kanizsa Rectangle", background_colour=(255, 182, 193))
 control.initialize(exp)
 
+
 def kanizsa(ar, scale_r, scale_c):
     
     l,h=ar

@@ -28,10 +28,3 @@ def hermanngrid(row, col, gap, size_s, col_s=(0, 0, 0), col_bg=(255, 255, 255)):
     control.end()
 
 hermanngrid(5, 3, 10, 50)
-
-
-
-
-
-
-

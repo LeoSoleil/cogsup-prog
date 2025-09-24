@@ -1,7 +1,7 @@
 from expyriment import design, control, stimuli
 from expyriment.misc import geometry
 import math
-#control.set_develop_mode()
+control.set_develop_mode()
 
 exp = design.Experiment(name = "Display Edges")
 control.initialize(exp)
