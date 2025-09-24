@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 17:25:18
+#sha1: 1b14b2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+139,Stimulus,presented,0
+139,Stimulus,presented,1
+139,Stimulus,presented,2
+139,Stimulus,presented,3
+140,Stimulus,presented,4
+140,Stimulus,presented,5
+140,Stimulus,presented,6
+140,Stimulus,presented,7
+140,Stimulus,presented,8
+140,Stimulus,presented,9
+141,Stimulus,presented,10
+141,Stimulus,presented,11
+141,Stimulus,presented,12
+141,Stimulus,presented,13
+145,Stimulus,presented,14
+3685,Keyboard,received,13,wait
+3685,Experiment,ended
+3688,Stimulus,presented,15
