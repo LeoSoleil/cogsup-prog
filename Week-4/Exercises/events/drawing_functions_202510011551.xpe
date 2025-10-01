@@ -1,0 +1,50 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 15:51:03
+#sha1: 226b44
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+157,Stimulus,presented,0
+160,Stimulus,presented,1
+500,Stimulus,presented,0
+503,Stimulus,presented,2
+503,Stimulus,presented,0
+505,Stimulus,presented,3
+505,Stimulus,presented,0
+507,Stimulus,presented,4
+507,Stimulus,presented,0
+509,Stimulus,presented,5
+509,Stimulus,presented,0
+511,Stimulus,presented,6
+511,Stimulus,presented,0
+513,Stimulus,presented,7
+513,Stimulus,presented,0
+515,Stimulus,presented,8
+515,Stimulus,presented,0
+517,Stimulus,presented,9
+517,Stimulus,presented,0
+520,Stimulus,presented,10
+520,Stimulus,presented,0
+522,Stimulus,presented,11
+522,Stimulus,presented,0
+523,Stimulus,presented,12
+523,Stimulus,presented,0
+525,Stimulus,presented,13
+525,Stimulus,presented,0
+527,Stimulus,presented,14
+527,Stimulus,presented,0
+529,Stimulus,presented,15
+529,Stimulus,presented,0
+531,Stimulus,presented,16
+531,Stimulus,presented,0
+533,Stimulus,presented,17
+533,Stimulus,presented,0
+535,Stimulus,presented,18
+535,Stimulus,presented,0
+536,Stimulus,presented,19
+536,Stimulus,presented,0
+538,Stimulus,presented,20
+538,stdout,received,'[343, 3, 2, 2, 2, 2, 2, 2, 2, 3, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2]'
+538,Experiment,ended
+541,Stimulus,presented,21

@@ -1,0 +1,40 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:36:28
+#sha1: 275136
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+140,Stimulus,presented,0
+1141,Stimulus,presented,1
+1142,Stimulus,presented,2
+1145,Stimulus,presented,3
+1645,Stimulus,presented,1
+2146,Stimulus,presented,1
+2146,Stimulus,presented,2
+2149,Stimulus,presented,3
+2650,Stimulus,presented,1
+3151,Stimulus,presented,1
+3152,Stimulus,presented,2
+3155,Stimulus,presented,3
+3656,Stimulus,presented,1
+4157,Stimulus,presented,1
+4157,Stimulus,presented,2
+4160,Stimulus,presented,3
+4661,Stimulus,presented,1
+5161,Stimulus,presented,1
+5162,Stimulus,presented,2
+5166,Stimulus,presented,3
+5667,Stimulus,presented,1
+6167,Stimulus,presented,1
+6168,Stimulus,presented,2
+6171,Stimulus,presented,3
+6672,Stimulus,presented,1
+6904,stderr,received,'Traceback (most recent call last):'
+6904,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus2.py", line 40, in <module>'
+6905,stderr,received,'    run_trial(50, 500)'
+6905,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus2.py", line 30, in run_trial'
+6905,stderr,received,'    exp.clock.wait(isi)'
+6905,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 154, in wait'
+6905,stderr,received,'    pygame.event.pump()'
+6905,stderr,received,'KeyboardInterrupt'

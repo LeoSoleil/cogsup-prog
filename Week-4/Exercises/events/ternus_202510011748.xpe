@@ -1,0 +1,62 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 17:48:52
+#sha1: 89f67f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+134,Stimulus,presented,0
+134,Stimulus,presented,1
+137,Stimulus,presented,2
+2072,Keyboard,received,13,wait
+2078,Stimulus,presented,0
+2078,Stimulus,presented,1
+2081,Stimulus,presented,2
+2086,Stimulus,presented,0
+2087,Stimulus,presented,1
+2089,Stimulus,presented,2
+3975,Keyboard,received,13,wait
+3981,Stimulus,presented,0
+3981,Stimulus,presented,1
+3984,Stimulus,presented,2
+3990,Stimulus,presented,0
+3990,Stimulus,presented,1
+3993,Stimulus,presented,2
+10821,Keyboard,received,32,wait
+10828,Stimulus,presented,0
+10830,Stimulus,presented,1
+10834,Stimulus,presented,2
+10840,Stimulus,presented,0
+10840,Stimulus,presented,1
+10843,Stimulus,presented,2
+13792,Keyboard,received,121,wait
+13798,Stimulus,presented,0
+13798,Stimulus,presented,1
+13801,Stimulus,presented,2
+13807,Stimulus,presented,0
+13807,Stimulus,presented,1
+13809,Stimulus,presented,2
+13992,Keyboard,received,121,wait
+13998,Stimulus,presented,0
+13998,Stimulus,presented,1
+14001,Stimulus,presented,2
+14006,Stimulus,presented,0
+14006,Stimulus,presented,1
+14009,Stimulus,presented,2
+14156,Keyboard,received,121,wait
+14161,Stimulus,presented,0
+14162,Stimulus,presented,1
+14164,Stimulus,presented,2
+14169,Stimulus,presented,0
+14170,Stimulus,presented,1
+14172,Stimulus,presented,2
+16603,stderr,received,'Traceback (most recent call last):'
+16603,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 38, in <module>'
+16603,stderr,received,'    run_trial(50, 5)'
+16603,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 17, in run_trial'
+16603,stderr,received,'    while(exp.keyboard.wait()):'
+16603,stderr,received,'          ^^^^^^^^^^^^^^^^^^^'
+16603,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+16617,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+16617,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+16617,stderr,received,'KeyboardInterrupt'

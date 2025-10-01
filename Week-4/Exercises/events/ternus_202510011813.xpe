@@ -1,0 +1,76 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:13:01
+#sha1: 0de84c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+502,Stimulus,presented,0
+503,Stimulus,presented,1
+506,Stimulus,presented,2
+3006,Stimulus,presented,0
+3007,Stimulus,presented,1
+3009,Stimulus,presented,2
+3510,Stimulus,presented,0
+3510,Stimulus,presented,1
+3513,Stimulus,presented,2
+4014,Stimulus,presented,0
+4014,Stimulus,presented,1
+4017,Stimulus,presented,2
+4517,Stimulus,presented,0
+4518,Stimulus,presented,1
+4521,Stimulus,presented,2
+5021,Stimulus,presented,0
+5022,Stimulus,presented,1
+5024,Stimulus,presented,2
+5525,Stimulus,presented,0
+5525,Stimulus,presented,1
+5528,Stimulus,presented,2
+6029,Stimulus,presented,0
+6029,Stimulus,presented,1
+6034,Stimulus,presented,2
+6534,Stimulus,presented,0
+6534,Stimulus,presented,1
+6537,Stimulus,presented,2
+7038,Stimulus,presented,0
+7038,Stimulus,presented,1
+7041,Stimulus,presented,2
+7541,Stimulus,presented,0
+7542,Stimulus,presented,1
+7545,Stimulus,presented,2
+8046,Stimulus,presented,0
+8046,Stimulus,presented,1
+8048,Stimulus,presented,2
+8549,Stimulus,presented,0
+8550,Stimulus,presented,1
+8552,Stimulus,presented,2
+9053,Stimulus,presented,0
+9054,Stimulus,presented,1
+9056,Stimulus,presented,2
+9557,Stimulus,presented,0
+9557,Stimulus,presented,1
+9560,Stimulus,presented,2
+10060,Stimulus,presented,0
+10061,Stimulus,presented,1
+10063,Stimulus,presented,2
+10564,Stimulus,presented,0
+10564,Stimulus,presented,1
+10568,Stimulus,presented,2
+11068,Stimulus,presented,0
+11069,Stimulus,presented,1
+11072,Stimulus,presented,2
+11573,Stimulus,presented,0
+11573,Stimulus,presented,1
+11577,Stimulus,presented,2
+11943,stderr,received,'Traceback (most recent call last):'
+11943,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 44, in <module>'
+11944,stderr,received,'    run_trial(50, 500)'
+11944,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 22, in run_trial'
+11944,stderr,received,'    exp.clock.wait(isi)'
+11944,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 157, in wait'
+11957,stderr,received,'    while (get_time() < start + waiting_time / 1000):'
+11957,stderr,received,'           ^^^^^^^^^^'
+11957,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/misc/_timer.py", line 21, in get_time'
+11957,stderr,received,'    return perf_counter()'
+11957,stderr,received,'           ^^^^^^^^^^^^^^'
+11957,stderr,received,'KeyboardInterrupt'

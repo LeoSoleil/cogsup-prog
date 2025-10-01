@@ -1,0 +1,27 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 17:50:43
+#sha1: 757b43
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+130,Stimulus,presented,0
+131,Stimulus,presented,1
+133,Stimulus,presented,2
+5134,Stimulus,presented,0
+5134,Stimulus,presented,1
+5137,Stimulus,presented,2
+10138,Stimulus,presented,0
+10138,Stimulus,presented,1
+10141,Stimulus,presented,2
+15142,Stimulus,presented,0
+15143,Stimulus,presented,1
+15145,Stimulus,presented,2
+17188,stderr,received,'Traceback (most recent call last):'
+17188,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 38, in <module>'
+17188,stderr,received,'    run_trial(50, 5000)'
+17188,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 25, in run_trial'
+17188,stderr,received,'    exp.clock.wait(isi)'
+17188,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 154, in wait'
+17202,stderr,received,'    pygame.event.pump()'
+17202,stderr,received,'KeyboardInterrupt'

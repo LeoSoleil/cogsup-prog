@@ -1,0 +1,67 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:30:36
+#sha1: a30ba6
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+142,Stimulus,presented,0
+143,Stimulus,presented,3
+143,Stimulus,presented,4
+146,Stimulus,presented,5
+647,Stimulus,presented,3
+647,Stimulus,presented,4
+650,Stimulus,presented,5
+1150,Stimulus,presented,3
+1151,Stimulus,presented,4
+1153,Stimulus,presented,5
+1654,Stimulus,presented,3
+1654,Stimulus,presented,4
+1657,Stimulus,presented,5
+2157,Stimulus,presented,3
+2158,Stimulus,presented,4
+2160,Stimulus,presented,5
+2661,Stimulus,presented,3
+2661,Stimulus,presented,4
+2664,Stimulus,presented,5
+3165,Stimulus,presented,3
+3165,Stimulus,presented,4
+3168,Stimulus,presented,5
+3668,Stimulus,presented,3
+3669,Stimulus,presented,4
+3671,Stimulus,presented,5
+4171,Stimulus,presented,3
+4172,Stimulus,presented,4
+4174,Stimulus,presented,5
+4675,Stimulus,presented,3
+4676,Stimulus,presented,4
+4678,Stimulus,presented,5
+5179,Stimulus,presented,3
+5179,Stimulus,presented,4
+5182,Stimulus,presented,5
+5682,Stimulus,presented,3
+5683,Stimulus,presented,4
+5685,Stimulus,presented,5
+6186,Stimulus,presented,3
+6186,Stimulus,presented,4
+6189,Stimulus,presented,5
+6189,Stimulus,presented,6
+6190,Stimulus,presented,7
+6192,Stimulus,presented,8
+7193,Stimulus,presented,6
+7193,Stimulus,presented,7
+7197,Stimulus,presented,8
+8197,Stimulus,presented,6
+8198,Stimulus,presented,7
+8201,Stimulus,presented,8
+9202,Stimulus,presented,6
+9202,Stimulus,presented,7
+9205,Stimulus,presented,8
+9493,stderr,received,'Traceback (most recent call last):'
+9493,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 49, in <module>'
+9493,stderr,received,'    run_trial(50, 1000)'
+9493,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 35, in run_trial'
+9493,stderr,received,'    exp.clock.wait(isi)'
+9493,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 154, in wait'
+9493,stderr,received,'    pygame.event.pump()'
+9493,stderr,received,'KeyboardInterrupt'

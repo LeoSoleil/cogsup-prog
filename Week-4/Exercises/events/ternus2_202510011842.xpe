@@ -1,0 +1,98 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:42:41
+#sha1: 30ddd0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+137,Stimulus,presented,0
+1138,Stimulus,presented,1
+1139,Stimulus,presented,2
+1140,Stimulus,presented,3
+1540,Stimulus,presented,1
+1541,Stimulus,presented,2
+1544,Stimulus,presented,3
+1944,Stimulus,presented,1
+1945,Stimulus,presented,2
+1947,Stimulus,presented,3
+2348,Stimulus,presented,1
+2348,Stimulus,presented,2
+2353,Stimulus,presented,3
+2754,Stimulus,presented,1
+2754,Stimulus,presented,2
+2758,Stimulus,presented,3
+3158,Stimulus,presented,1
+3159,Stimulus,presented,2
+3162,Stimulus,presented,3
+3563,Stimulus,presented,1
+3563,Stimulus,presented,2
+3566,Stimulus,presented,3
+3966,Stimulus,presented,1
+3967,Stimulus,presented,2
+3969,Stimulus,presented,3
+4370,Stimulus,presented,1
+4371,Stimulus,presented,2
+4374,Stimulus,presented,3
+4774,Stimulus,presented,1
+4775,Stimulus,presented,2
+4778,Stimulus,presented,3
+5179,Stimulus,presented,1
+5179,Stimulus,presented,2
+5182,Stimulus,presented,3
+5583,Stimulus,presented,1
+5583,Stimulus,presented,2
+5586,Stimulus,presented,3
+5987,Stimulus,presented,1
+5987,Stimulus,presented,2
+5990,Stimulus,presented,3
+5992,Stimulus,presented,4
+6993,Stimulus,presented,5
+6993,Stimulus,presented,6
+6994,Stimulus,presented,7
+7994,Stimulus,presented,5
+7995,Stimulus,presented,6
+7997,Stimulus,presented,7
+8998,Stimulus,presented,5
+8998,Stimulus,presented,6
+9001,Stimulus,presented,7
+10002,Stimulus,presented,5
+10002,Stimulus,presented,6
+10005,Stimulus,presented,7
+11006,Stimulus,presented,5
+11006,Stimulus,presented,6
+11009,Stimulus,presented,7
+12010,Stimulus,presented,5
+12010,Stimulus,presented,6
+12013,Stimulus,presented,7
+13013,Stimulus,presented,5
+13014,Stimulus,presented,6
+13020,Stimulus,presented,7
+14021,Stimulus,presented,5
+14021,Stimulus,presented,6
+14024,Stimulus,presented,7
+15025,Stimulus,presented,5
+15025,Stimulus,presented,6
+15028,Stimulus,presented,7
+16028,Stimulus,presented,5
+16029,Stimulus,presented,6
+16032,Stimulus,presented,7
+17032,Stimulus,presented,5
+17033,Stimulus,presented,6
+17035,Stimulus,presented,7
+18036,Stimulus,presented,5
+18036,Stimulus,presented,6
+18038,Stimulus,presented,7
+19039,Stimulus,presented,5
+19039,Stimulus,presented,6
+19042,Stimulus,presented,7
+19045,Stimulus,presented,8
+20045,Stimulus,presented,9
+20046,Stimulus,presented,10
+20048,Stimulus,presented,11
+20464,stderr,received,'Traceback (most recent call last):'
+20464,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus2.py", line 66, in <module>'
+20464,stderr,received,'    run_trial(50, 400,True)'
+20464,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus2.py", line 40, in run_trial'
+20464,stderr,received,'    c1.reposition(((3*t),0))'
+20464,stderr,received,'    ^^'
+20464,stderr,received,"UnboundLocalError: cannot access local variable 'c1' where it is not associated with a value"

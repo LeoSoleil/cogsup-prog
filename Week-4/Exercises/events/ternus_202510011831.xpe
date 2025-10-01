@@ -1,0 +1,132 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:31:52
+#sha1: 00e1a0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+134,Stimulus,presented,0
+1135,Stimulus,presented,1
+1136,Stimulus,presented,2
+1139,Stimulus,presented,3
+1640,Stimulus,presented,1
+1640,Stimulus,presented,2
+1643,Stimulus,presented,3
+2144,Stimulus,presented,1
+2144,Stimulus,presented,2
+2147,Stimulus,presented,3
+2647,Stimulus,presented,1
+2648,Stimulus,presented,2
+2651,Stimulus,presented,3
+3152,Stimulus,presented,1
+3153,Stimulus,presented,2
+3157,Stimulus,presented,3
+3658,Stimulus,presented,1
+3658,Stimulus,presented,2
+3660,Stimulus,presented,3
+4161,Stimulus,presented,1
+4161,Stimulus,presented,2
+4163,Stimulus,presented,3
+4664,Stimulus,presented,1
+4665,Stimulus,presented,2
+4667,Stimulus,presented,3
+5168,Stimulus,presented,1
+5168,Stimulus,presented,2
+5171,Stimulus,presented,3
+5671,Stimulus,presented,1
+5672,Stimulus,presented,2
+5674,Stimulus,presented,3
+6175,Stimulus,presented,1
+6175,Stimulus,presented,2
+6178,Stimulus,presented,3
+6679,Stimulus,presented,1
+6679,Stimulus,presented,2
+6681,Stimulus,presented,3
+7182,Stimulus,presented,1
+7182,Stimulus,presented,2
+7185,Stimulus,presented,3
+7188,Stimulus,presented,4
+8189,Stimulus,presented,5
+8189,Stimulus,presented,6
+8192,Stimulus,presented,7
+9192,Stimulus,presented,5
+9193,Stimulus,presented,6
+9195,Stimulus,presented,7
+10196,Stimulus,presented,5
+10196,Stimulus,presented,6
+10198,Stimulus,presented,7
+11199,Stimulus,presented,5
+11199,Stimulus,presented,6
+11202,Stimulus,presented,7
+12203,Stimulus,presented,5
+12203,Stimulus,presented,6
+12205,Stimulus,presented,7
+13206,Stimulus,presented,5
+13206,Stimulus,presented,6
+13209,Stimulus,presented,7
+14210,Stimulus,presented,5
+14210,Stimulus,presented,6
+14213,Stimulus,presented,7
+15213,Stimulus,presented,5
+15214,Stimulus,presented,6
+15216,Stimulus,presented,7
+16216,Stimulus,presented,5
+16217,Stimulus,presented,6
+16220,Stimulus,presented,7
+17221,Stimulus,presented,5
+17221,Stimulus,presented,6
+17224,Stimulus,presented,7
+18225,Stimulus,presented,5
+18226,Stimulus,presented,6
+18230,Stimulus,presented,7
+19231,Stimulus,presented,5
+19231,Stimulus,presented,6
+19234,Stimulus,presented,7
+20235,Stimulus,presented,5
+20235,Stimulus,presented,6
+20238,Stimulus,presented,7
+20241,Stimulus,presented,8
+21242,Stimulus,presented,9
+21242,Stimulus,presented,10
+21245,Stimulus,presented,11
+21746,Stimulus,presented,9
+21746,Stimulus,presented,10
+21749,Stimulus,presented,11
+22249,Stimulus,presented,9
+22250,Stimulus,presented,10
+22253,Stimulus,presented,11
+22753,Stimulus,presented,9
+22753,Stimulus,presented,10
+22757,Stimulus,presented,11
+23258,Stimulus,presented,9
+23258,Stimulus,presented,10
+23260,Stimulus,presented,11
+23761,Stimulus,presented,9
+23761,Stimulus,presented,10
+23764,Stimulus,presented,11
+24264,Stimulus,presented,9
+24265,Stimulus,presented,10
+24268,Stimulus,presented,11
+24768,Stimulus,presented,9
+24769,Stimulus,presented,10
+24772,Stimulus,presented,11
+25272,Stimulus,presented,9
+25273,Stimulus,presented,10
+25276,Stimulus,presented,11
+25776,Stimulus,presented,9
+25777,Stimulus,presented,10
+25779,Stimulus,presented,11
+26280,Stimulus,presented,9
+26280,Stimulus,presented,10
+26283,Stimulus,presented,11
+26783,Stimulus,presented,9
+26784,Stimulus,presented,10
+26787,Stimulus,presented,11
+26996,stderr,received,'Traceback (most recent call last):'
+26996,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 58, in <module>'
+26996,stderr,received,'    run_trial(50, 500,True)'
+26996,stderr,received,'  File "/home/leo/Assignments/Week-4/Exercises/ternus.py", line 35, in run_trial'
+26996,stderr,received,'    exp.clock.wait(isi)'
+26996,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 154, in wait'
+26996,stderr,received,'    pygame.event.pump()'
+26996,stderr,received,'KeyboardInterrupt'
