@@ -1,0 +1,48 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:00:33
+#sha1: 743c19
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+1084,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1084,design,logged,
+1084,Experiment,started
+1090,Stimulus,presented,0
+1093,Stimulus,presented,1
+5844,Keyboard,received,49,wait
+5847,Stimulus,presented,0
+5851,Stimulus,presented,2
+6050,Keyboard,received,49,wait
+6054,Stimulus,presented,0
+6059,Stimulus,presented,3
+6309,Keyboard,received,50,wait
+6312,Stimulus,presented,0
+6316,Stimulus,presented,4
+6488,Keyboard,received,50,wait
+6492,Stimulus,presented,0
+6495,Stimulus,presented,5
+7230,Keyboard,received,49,wait
+7234,Stimulus,presented,0
+7237,Stimulus,presented,6
+7434,Keyboard,received,49,wait
+7437,Stimulus,presented,0
+7441,Stimulus,presented,7
+7637,Keyboard,received,50,wait
+7640,Stimulus,presented,0
+7644,Stimulus,presented,8
+7808,Keyboard,received,50,wait
+7814,Stimulus,presented,0
+7818,Stimulus,presented,9
+9891,stderr,received,'Traceback (most recent call last):'
+9891,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/blindspot.py", line 47, in <module>'
+9891,stderr,received,'    run_trial()'
+9891,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/blindspot.py", line 29, in run_trial'
+9891,stderr,received,'    r=exp.keyboard.wait(keys=[49,50,32])'
+9891,stderr,received,'      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+9891,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+9891,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+9891,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+9891,stderr,received,'KeyboardInterrupt'

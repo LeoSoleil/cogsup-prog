@@ -1,0 +1,31 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpd-file, coding: UTF-8
+#date: Wed Oct 08 2025 16:42:58
+#--EXPERIMENT INFO
+#e mainfile: blindspot.py
+#e sha1: 4000c9
+#e modules: 
+#e Experiment: Blindspot
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,Eye,Key,Radius,Coordinates-h,Coordinates-v
+1,left,1073741904,75,-15,0
+1,left,1073741904,75,-30,0
+1,left,1073741904,75,-45,0
+1,left,1073741904,75,-60,0
+1,left,49,65,-60,0
+1,left,49,55,-60,0
+1,left,49,45,-60,0
+1,left,32,45,-60,0
+1,right,1073741903,75,15,0
+1,right,1073741903,75,30,0
+1,right,1073741903,75,45,0
+1,right,1073741903,75,60,0
+1,right,50,85,60,0
+1,right,50,95,60,0
+1,right,49,85,60,0
+1,right,50,95,60,0
+1,right,1073741903,95,75,0
+1,right,1073741903,95,90,0
+1,right,1073741903,95,105,0
+1,right,32,95,105,0

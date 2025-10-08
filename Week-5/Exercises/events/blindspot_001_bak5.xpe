@@ -1,0 +1,47 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 14:56:54
+#sha1: 10ff92
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+1052,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1052,design,logged,
+1052,Experiment,started
+1057,Stimulus,presented,0
+1059,Stimulus,presented,1
+2323,Keyboard,received,50,wait
+2326,Stimulus,presented,0
+2328,Stimulus,presented,2
+2885,Keyboard,received,50,wait
+2890,Stimulus,presented,0
+2897,Stimulus,presented,3
+3700,Keyboard,received,49,wait
+3704,Stimulus,presented,0
+3711,Stimulus,presented,4
+4215,Keyboard,received,49,wait
+4220,Stimulus,presented,0
+4222,Stimulus,presented,5
+5234,Keyboard,received,49,wait
+5238,Stimulus,presented,0
+5242,Stimulus,presented,6
+5589,Keyboard,received,49,wait
+5593,Stimulus,presented,0
+5597,Stimulus,presented,7
+5862,Keyboard,received,50,wait
+5866,Stimulus,presented,0
+5870,Stimulus,presented,8
+6105,Keyboard,received,50,wait
+6109,Stimulus,presented,0
+6112,Stimulus,presented,9
+10249,stderr,received,'Traceback (most recent call last):'
+10249,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/blindspot.py", line 47, in <module>'
+10250,stderr,received,'    run_trial()'
+10250,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/blindspot.py", line 29, in run_trial'
+10250,stderr,received,'    exp.keyboard.wait(keys=[49,50,32])'
+10250,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 362, in wait'
+10250,stderr,received,'    while not done:'
+10250,stderr,received,'              ^^^^'
+10250,stderr,received,'KeyboardInterrupt'

@@ -1,0 +1,72 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:46:44
+#sha1: 5ec8db
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+992,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+992,design,logged,
+992,Experiment,started
+1019,Stimulus,presented,1
+1480,Keyboard,received,32,wait
+1484,Stimulus,presented,0
+1488,Stimulus,presented,2
+2423,Keyboard,received,1073741903,wait
+2428,Stimulus,presented,0
+2432,Stimulus,presented,3
+2616,Keyboard,received,1073741903,wait
+2620,Stimulus,presented,0
+2623,Stimulus,presented,4
+2850,Keyboard,received,1073741906,wait
+2855,Stimulus,presented,0
+2858,Stimulus,presented,5
+3045,Keyboard,received,1073741906,wait
+3051,Stimulus,presented,0
+3054,Stimulus,presented,6
+3211,Keyboard,received,1073741906,wait
+3215,Stimulus,presented,0
+3219,Stimulus,presented,7
+3404,Keyboard,received,1073741906,wait
+3408,Stimulus,presented,0
+3410,Stimulus,presented,8
+3933,Keyboard,received,1073741904,wait
+3937,Stimulus,presented,0
+3941,Stimulus,presented,9
+4116,Keyboard,received,1073741904,wait
+4120,Stimulus,presented,0
+4126,Stimulus,presented,10
+4471,Keyboard,received,1073741905,wait
+4476,Stimulus,presented,0
+4480,Stimulus,presented,11
+4679,Keyboard,received,1073741905,wait
+4683,Stimulus,presented,0
+4686,Stimulus,presented,12
+5274,Keyboard,received,50,wait
+5280,Stimulus,presented,0
+5285,Stimulus,presented,13
+5428,Keyboard,received,50,wait
+5433,Stimulus,presented,0
+5437,Stimulus,presented,14
+5633,Keyboard,received,49,wait
+5637,Stimulus,presented,0
+5640,Stimulus,presented,15
+5822,Keyboard,received,50,wait
+5828,Stimulus,presented,0
+5832,Stimulus,presented,16
+6034,Keyboard,received,49,wait
+6050,Stimulus,presented,0
+6054,Stimulus,presented,17
+6211,Keyboard,received,50,wait
+6216,Stimulus,presented,0
+6220,Stimulus,presented,18
+6384,Keyboard,received,49,wait
+6389,Stimulus,presented,0
+6393,Stimulus,presented,19
+6833,Keyboard,received,32,wait
+6838,Stimulus,presented,0
+6845,Stimulus,presented,20
+8909,Keyboard,received,107,wait
+8909,Experiment,ended

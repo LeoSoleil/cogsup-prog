@@ -1,0 +1,69 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:32:02
+#sha1: 1de7ec
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+2089,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2089,design,logged,
+2089,Experiment,started
+2106,Stimulus,presented,1
+20590,Keyboard,received,32,wait
+20594,Stimulus,presented,0
+20598,Stimulus,presented,2
+23909,Keyboard,received,49,wait
+23912,Stimulus,presented,0
+23918,Stimulus,presented,3
+24104,Keyboard,received,49,wait
+24105,Stimulus,presented,0
+24111,Stimulus,presented,4
+24350,Keyboard,received,49,wait
+24351,Stimulus,presented,0
+24353,Stimulus,presented,5
+24495,Keyboard,received,49,wait
+24496,Stimulus,presented,0
+24500,Stimulus,presented,6
+24706,Keyboard,received,50,wait
+24708,Stimulus,presented,0
+24713,Stimulus,presented,7
+24868,Keyboard,received,50,wait
+24871,Stimulus,presented,0
+24875,Stimulus,presented,8
+25034,Keyboard,received,50,wait
+25038,Stimulus,presented,0
+25043,Stimulus,presented,9
+25196,Keyboard,received,50,wait
+25199,Stimulus,presented,0
+25202,Stimulus,presented,10
+25345,Keyboard,received,50,wait
+25349,Stimulus,presented,0
+25352,Stimulus,presented,11
+25506,Keyboard,received,49,wait
+25510,Stimulus,presented,0
+25515,Stimulus,presented,12
+25663,Keyboard,received,49,wait
+25666,Stimulus,presented,0
+25670,Stimulus,presented,13
+25960,Keyboard,received,50,wait
+25963,Stimulus,presented,0
+25967,Stimulus,presented,14
+26107,Keyboard,received,49,wait
+26110,Stimulus,presented,0
+26115,Stimulus,presented,15
+26247,Keyboard,received,50,wait
+26251,Stimulus,presented,0
+26255,Stimulus,presented,16
+26389,Keyboard,received,49,wait
+26392,Stimulus,presented,0
+26395,Stimulus,presented,17
+26817,Keyboard,received,50,wait
+26822,Stimulus,presented,0
+26826,Stimulus,presented,18
+27359,Keyboard,received,32,wait
+27363,Stimulus,presented,0
+27368,Stimulus,presented,19
+27830,Keyboard,received,32,wait
+27830,Experiment,ended

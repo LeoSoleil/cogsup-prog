@@ -1,0 +1,68 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 16:00:50
+#sha1: 3f1476
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+585,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+585,design,logged,
+585,Experiment,started
+598,Stimulus,presented,0
+4693,Keyboard,received,32,wait
+4699,Stimulus,presented,1
+7220,Keyboard,received,32,wait
+8448,Keyboard,received,32,wait
+8453,Stimulus,presented,2
+8457,Stimulus,presented,3
+10035,Keyboard,received,1073741904,wait
+10040,Stimulus,presented,2
+10045,Stimulus,presented,4
+10286,Keyboard,received,1073741904,wait
+10290,Stimulus,presented,2
+10295,Stimulus,presented,5
+10480,Keyboard,received,1073741904,wait
+10485,Stimulus,presented,2
+10491,Stimulus,presented,6
+10671,Keyboard,received,1073741904,wait
+10674,Stimulus,presented,2
+10677,Stimulus,presented,7
+10859,Keyboard,received,1073741904,wait
+10862,Stimulus,presented,2
+10871,Stimulus,presented,8
+11043,Keyboard,received,1073741904,wait
+11047,Stimulus,presented,2
+11052,Stimulus,presented,9
+11198,Keyboard,received,1073741904,wait
+11201,Stimulus,presented,2
+11204,Stimulus,presented,10
+11385,Keyboard,received,1073741904,wait
+11389,Stimulus,presented,2
+11393,Stimulus,presented,11
+11577,Keyboard,received,1073741904,wait
+11581,Stimulus,presented,2
+11584,Stimulus,presented,12
+11763,Keyboard,received,1073741904,wait
+11766,Stimulus,presented,2
+11769,Stimulus,presented,13
+12103,Keyboard,received,1073741904,wait
+12106,Stimulus,presented,2
+12109,Stimulus,presented,14
+12346,Keyboard,received,1073741904,wait
+12363,Stimulus,presented,2
+12368,Stimulus,presented,15
+12511,Keyboard,received,1073741904,wait
+12515,Stimulus,presented,2
+12520,Stimulus,presented,16
+12746,Keyboard,received,1073741904,wait
+12750,Stimulus,presented,2
+12756,Stimulus,presented,17
+13114,Keyboard,received,32,wait
+13118,Stimulus,presented,2
+13122,Stimulus,presented,18
+13134,Stimulus,presented,19
+19407,Keyboard,received,32,wait
+19922,Keyboard,received,32,wait
+19922,Experiment,ended

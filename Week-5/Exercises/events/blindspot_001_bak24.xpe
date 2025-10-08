@@ -1,0 +1,35 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:47:46
+#sha1: 9a0e0e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+649,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+649,design,logged,
+649,Experiment,started
+675,Stimulus,presented,1
+2497,Keyboard,received,32,wait
+2500,Stimulus,presented,0
+2507,Stimulus,presented,2
+3370,Keyboard,received,1073741903,wait
+3374,Stimulus,presented,0
+3377,Stimulus,presented,3
+3740,Keyboard,received,1073741906,wait
+3744,Stimulus,presented,0
+3748,Stimulus,presented,4
+4057,Keyboard,received,1073741905,wait
+4060,Stimulus,presented,0
+4063,Stimulus,presented,5
+4444,Keyboard,received,1073741904,wait
+4447,Stimulus,presented,0
+4449,Stimulus,presented,6
+4952,Keyboard,received,32,wait
+4956,Stimulus,presented,0
+4958,Stimulus,presented,7
+4967,Stimulus,presented,8
+7336,Keyboard,received,32,wait
+9062,Keyboard,received,32,wait
+9063,Experiment,ended
