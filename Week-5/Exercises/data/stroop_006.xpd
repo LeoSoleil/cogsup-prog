@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpd-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:47:12
+#--EXPERIMENT INFO
+#e mainfile: stroop.py
+#e sha1: 5a45a8
+#e modules: 
+#e Experiment: Stroop
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 6
+subject_id,Block,Trial num,Trial type,word,color,RT,Accuracy
+6,1,0,False,blue,"(42, 91, 23)",2751,True

@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:25:56
+#sha1: 394bac
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+183,Stimulus,presented,0
+1890,Keyboard,received,32,wait
+1899,Stimulus,presented,1
+3048,Keyboard,received,32,wait
+3058,Stimulus,presented,3
+4372,Keyboard,received,32,wait
+4372,stdout,received,'0'
+4378,Stimulus,presented,2
+4984,stderr,received,'Traceback (most recent call last):'
+4984,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 106, in <module>'
+4984,stderr,received,'    run_trial()'
+4984,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 87, in run_trial'
+4984,stderr,received,'    w,c,m=randomiser()'
+4985,stderr,received,'          ^^^^^^^^^^^^'
+4985,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 55, in randomiser'
+4985,stderr,received,'    return words[wi],colors[ci],(wi==ci)'
+4985,stderr,received,'                     ~~~~~~^^^^'
+4985,stderr,received,'IndexError: list index out of range'

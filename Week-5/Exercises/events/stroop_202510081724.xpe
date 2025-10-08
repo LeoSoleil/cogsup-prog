@@ -1,0 +1,24 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:24:42
+#sha1: 6c01a8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+236,Stimulus,presented,0
+2546,Keyboard,received,32,wait
+2555,Stimulus,presented,1
+4041,Keyboard,received,32,wait
+4054,Stimulus,presented,3
+5382,Keyboard,received,32,wait
+5382,stdout,received,'0'
+5391,Stimulus,presented,2
+22946,stderr,received,'Traceback (most recent call last):'
+22946,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 106, in <module>'
+22947,stderr,received,'    run_trial()'
+22947,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 85, in run_trial'
+22947,stderr,received,'    exp.keyboard.wait(500)'
+22947,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+22961,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+22961,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+22961,stderr,received,'KeyboardInterrupt'

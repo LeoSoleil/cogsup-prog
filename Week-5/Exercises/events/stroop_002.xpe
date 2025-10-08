@@ -1,0 +1,32 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:44:54
+#sha1: ab0e1c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+1029,design,log,
+#design: #exp: Stroop
+#design: #dvn: Block,Trial num,Trial type,word,color,RT,Accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+1029,design,logged,
+1029,Experiment,started
+1038,Stimulus,presented,0
+1874,Keyboard,received,32,wait
+1882,Stimulus,presented,1
+2571,Keyboard,received,32,wait
+2580,Stimulus,presented,3
+3230,Keyboard,received,32,wait
+3230,stdout,received,'0'
+3236,Stimulus,presented,2
+3749,Stimulus,presented,4
+11534,stderr,received,'Traceback (most recent call last):'
+11534,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 113, in <module>'
+11535,stderr,received,'    run_trial()'
+11535,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 96, in run_trial'
+11535,stderr,received,'    key, time=exp.keyboard.wait(keys=[K_LEFT,K_RIGHT])'
+11535,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+11535,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+11535,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+11535,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+11535,stderr,received,'KeyboardInterrupt'

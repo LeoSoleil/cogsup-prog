@@ -1,0 +1,31 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:26:25
+#sha1: 2bda2b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+186,Stimulus,presented,0
+717,Keyboard,received,32,wait
+724,Stimulus,presented,1
+1293,Keyboard,received,32,wait
+1300,Stimulus,presented,3
+1875,Keyboard,received,32,wait
+1876,stdout,received,'0'
+1880,Stimulus,presented,2
+2381,stderr,received,'Exception ignored in: <function Visual.__del__ at 0xfb40301c5d00>'
+2381,stderr,received,'Traceback (most recent call last):'
+2381,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+2394,stderr,received,'    if self._compression_filename is not None:'
+2394,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2394,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+2425,stderr,received,'Traceback (most recent call last):'
+2425,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 106, in <module>'
+2426,stderr,received,'    run_trial()'
+2426,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 88, in run_trial'
+2426,stderr,received,'    word=make_word(w,c)'
+2426,stderr,received,'         ^^^^^^^^^^^^^^'
+2426,stderr,received,'  File "/home/leo/Assignments/Week-5/Exercises/stroop.py", line 26, in make_word'
+2426,stderr,received,'    word=stimuli.TextScreen(text=w, text_colour=c)'
+2426,stderr,received,'         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2426,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'heading'"
