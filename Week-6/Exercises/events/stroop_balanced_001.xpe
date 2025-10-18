@@ -1,0 +1,242 @@
+#Expyriment 1.0.0 (Python 3.12.3), .xpe-file, coding: UTF-8
+#date: Sat Oct 18 2025 15:29:55
+#sha1: 4f6125
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='LeoSurface7', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:31:42 UTC 2025', machine='aarch64')
+Time,Type,Event,Value,Detail,Detail2
+1101,design,log,
+#design: #exp: Stroop (Balanced Color Identification, Initials R/B/G/O)
+#design: #dvn: block,trial_in_block,word,ink_color,congruency,key,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+1101,design,logged,
+1101,Experiment,started
+1109,Stimulus,presented,19
+4965,Keyboard,received,32,wait
+4966,Stimulus,presented,0
+5469,Stimulus,presented,7
+6232,Keyboard,received,103,wait
+6232,Stimulus,presented,17
+6832,Stimulus,presented,0
+7337,Stimulus,presented,11
+7823,Keyboard,received,103,wait
+7823,Stimulus,presented,17
+8423,Stimulus,presented,0
+8928,Stimulus,presented,9
+9906,Keyboard,received,114,wait
+9907,Stimulus,presented,17
+10508,Stimulus,presented,0
+11010,Stimulus,presented,16
+11537,Keyboard,received,111,wait
+11538,Stimulus,presented,17
+12138,Stimulus,presented,0
+12640,Stimulus,presented,13
+13757,Keyboard,received,114,wait
+13757,Stimulus,presented,17
+14357,Stimulus,presented,0
+14861,Stimulus,presented,10
+16240,Keyboard,received,98,wait
+16240,Stimulus,presented,17
+16840,Stimulus,presented,0
+17344,Stimulus,presented,5
+18225,Keyboard,received,114,wait
+18225,Stimulus,presented,17
+18826,Stimulus,presented,0
+19328,Stimulus,presented,15
+19946,Keyboard,received,111,wait
+19946,Stimulus,presented,18
+20546,Stimulus,presented,0
+21048,Stimulus,presented,1
+21603,Keyboard,received,114,wait
+21604,Stimulus,presented,17
+22203,Stimulus,presented,0
+22706,Stimulus,presented,2
+23455,Keyboard,received,98,wait
+23455,Stimulus,presented,17
+24055,Stimulus,presented,0
+24558,Stimulus,presented,4
+25331,Keyboard,received,111,wait
+25331,Stimulus,presented,17
+25931,Stimulus,presented,0
+26434,Stimulus,presented,8
+27250,Keyboard,received,111,wait
+27251,Stimulus,presented,17
+27850,Stimulus,presented,0
+28353,Stimulus,presented,14
+28917,Keyboard,received,98,wait
+28918,Stimulus,presented,17
+29517,Stimulus,presented,0
+30022,Stimulus,presented,12
+30504,Keyboard,received,111,wait
+30504,Stimulus,presented,17
+31104,Stimulus,presented,0
+31606,Stimulus,presented,3
+32730,Keyboard,received,103,wait
+32730,Stimulus,presented,17
+33330,Stimulus,presented,0
+33834,Stimulus,presented,6
+34466,Keyboard,received,114,wait
+34466,Stimulus,presented,18
+35066,Stimulus,presented,0
+35568,Stimulus,presented,10
+36471,Keyboard,received,103,wait
+36471,Stimulus,presented,18
+37071,Stimulus,presented,0
+37574,Stimulus,presented,16
+38142,Keyboard,received,111,wait
+38142,Stimulus,presented,17
+38743,Stimulus,presented,0
+39244,Stimulus,presented,11
+39800,Keyboard,received,103,wait
+39800,Stimulus,presented,17
+40401,Stimulus,presented,0
+40904,Stimulus,presented,12
+41681,Keyboard,received,111,wait
+41681,Stimulus,presented,17
+42281,Stimulus,presented,0
+42783,Stimulus,presented,15
+43852,Keyboard,received,103,wait
+43852,Stimulus,presented,17
+44452,Stimulus,presented,0
+44956,Stimulus,presented,3
+45618,Keyboard,received,103,wait
+45618,Stimulus,presented,17
+46218,Stimulus,presented,0
+46721,Stimulus,presented,13
+47231,Keyboard,received,114,wait
+47231,Stimulus,presented,17
+47831,Stimulus,presented,0
+48335,Stimulus,presented,1
+48785,Keyboard,received,114,wait
+48785,Stimulus,presented,17
+49385,Stimulus,presented,0
+49889,Stimulus,presented,2
+50385,Keyboard,received,98,wait
+50386,Stimulus,presented,17
+50985,Stimulus,presented,0
+51489,Stimulus,presented,7
+52066,Keyboard,received,103,wait
+52067,Stimulus,presented,17
+52666,Stimulus,presented,0
+53170,Stimulus,presented,6
+53715,Keyboard,received,98,wait
+53715,Stimulus,presented,17
+54315,Stimulus,presented,0
+54818,Stimulus,presented,8
+55292,Keyboard,received,111,wait
+55293,Stimulus,presented,17
+55892,Stimulus,presented,0
+56394,Stimulus,presented,5
+57000,Keyboard,received,114,wait
+57000,Stimulus,presented,17
+57600,Stimulus,presented,0
+58102,Stimulus,presented,9
+58684,Keyboard,received,114,wait
+58685,Stimulus,presented,17
+59284,Stimulus,presented,0
+59786,Stimulus,presented,14
+60442,Keyboard,received,98,wait
+60442,Stimulus,presented,17
+61042,Stimulus,presented,0
+61547,Stimulus,presented,4
+62338,Keyboard,received,111,wait
+62338,Stimulus,presented,17
+62938,Stimulus,presented,0
+63442,Stimulus,presented,14
+64053,Keyboard,received,98,wait
+64054,Stimulus,presented,17
+64654,Stimulus,presented,0
+65156,Stimulus,presented,15
+66133,Keyboard,received,114,wait
+66134,Stimulus,presented,18
+66733,Stimulus,presented,0
+67237,Stimulus,presented,4
+68314,Keyboard,received,111,wait
+68314,Stimulus,presented,17
+68914,Stimulus,presented,0
+69418,Stimulus,presented,9
+69978,Keyboard,received,114,wait
+69978,Stimulus,presented,17
+70578,Stimulus,presented,0
+71082,Stimulus,presented,8
+71776,Keyboard,received,111,wait
+71777,Stimulus,presented,17
+72376,Stimulus,presented,0
+72880,Stimulus,presented,10
+73345,Keyboard,received,98,wait
+73345,Stimulus,presented,17
+73948,Stimulus,presented,0
+74451,Stimulus,presented,16
+74991,Keyboard,received,111,wait
+74991,Stimulus,presented,17
+75591,Stimulus,presented,0
+76097,Stimulus,presented,1
+76681,Keyboard,received,114,wait
+76681,Stimulus,presented,17
+77281,Stimulus,presented,0
+77784,Stimulus,presented,7
+78466,Keyboard,received,103,wait
+78466,Stimulus,presented,17
+79066,Stimulus,presented,0
+79570,Stimulus,presented,13
+80405,Keyboard,received,114,wait
+80405,Stimulus,presented,17
+81005,Stimulus,presented,0
+81510,Stimulus,presented,3
+82098,Keyboard,received,103,wait
+82098,Stimulus,presented,17
+82698,Stimulus,presented,0
+83201,Stimulus,presented,2
+83600,Keyboard,received,98,wait
+83600,Stimulus,presented,17
+84200,Stimulus,presented,0
+84702,Stimulus,presented,12
+85424,Keyboard,received,111,wait
+85424,Stimulus,presented,17
+86025,Stimulus,presented,0
+86528,Stimulus,presented,6
+87326,Keyboard,received,98,wait
+87326,Stimulus,presented,17
+87926,Stimulus,presented,0
+88429,Stimulus,presented,11
+88903,Keyboard,received,103,wait
+88903,Stimulus,presented,17
+89504,Stimulus,presented,0
+90008,Stimulus,presented,5
+90904,Keyboard,received,114,wait
+90905,Stimulus,presented,17
+91505,Stimulus,presented,0
+92010,Stimulus,presented,13
+92752,Keyboard,received,114,wait
+92753,Stimulus,presented,17
+93352,Stimulus,presented,0
+93856,Stimulus,presented,16
+94542,Keyboard,received,111,wait
+94542,Stimulus,presented,17
+95142,Stimulus,presented,0
+95645,Stimulus,presented,1
+98165,Experiment,paused
+98168,Stimulus,presented,20
+104904,stderr,received,'Traceback (most recent call last):'
+104904,stderr,received,'  File "/home/leo/Assignments/Week-6/Exercises/stroop_balanced.py", line 138, in <module>'
+104905,stderr,received,'    run_trial(block_id, trial_id, word, ink_color)'
+104905,stderr,received,'  File "/home/leo/Assignments/Week-6/Exercises/stroop_balanced.py", line 102, in run_trial'
+104906,stderr,received,'    key, rt = exp.keyboard.wait(RESPONSE_KEYS)'
+104906,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+104906,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 381, in wait'
+104907,stderr,received,'    Keyboard.process_control_keys(event):'
+104907,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+104907,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 145, in process_control_keys'
+104907,stderr,received,'    cls.quit_control.call_functions(event_detected_function,'
+104907,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 63, in call_functions'
+104907,stderr,received,'    confirm = cls.end_function('
+104907,stderr,received,'              ^^^^^^^^^^^^^^^^^'
+104907,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 322, in end'
+104908,stderr,received,'    char = Keyboard().wait_char(["y", "n"], process_control_events=False,'
+104908,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+104908,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 482, in wait_char'
+104908,stderr,received,'    _internals.low_performance_sleep()'
+104908,stderr,received,'  File "/home/leo/projects/exp/.venv/lib/python3.12/site-packages/expyriment/_internals.py", line 19, in low_performance_sleep'
+104908,stderr,received,'    sleep(0.0001)'
+104909,stderr,received,'KeyboardInterrupt'
+104912,Data,saved
